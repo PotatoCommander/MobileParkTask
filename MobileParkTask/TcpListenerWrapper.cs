@@ -16,7 +16,7 @@ public class TcpListenerWrapper
 
     private readonly int _averageCount;
 
-    private  TcpClient _tcpClient;
+    private TcpClient _tcpClient;
 
     private NetworkStream _stream;
 
@@ -62,7 +62,8 @@ public class TcpListenerWrapper
 
     public void GetStatus()
     {
-        Console.WriteLine($"Connection Status: {_tcpClient.Connected}, number of sensor values: {SensorDataList.Count}");
+        Console.WriteLine(
+            $"Connection Status: {_tcpClient.Connected}, number of sensor values: {SensorDataList.Count}");
     }
 
     private void ShowAverage(int n)
