@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileParkTask", "MobileParkTask\MobileParkTask.csproj", "{195E0F3A-7B70-4204-84D2-10DF18144491}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{195E0F3A-7B70-4204-84D2-10DF18144491}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195E0F3A-7B70-4204-84D2-10DF18144491}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195E0F3A-7B70-4204-84D2-10DF18144491}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195E0F3A-7B70-4204-84D2-10DF18144491}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {047767EA-F8A7-4580-9195-26FF924542B2}
+	EndGlobalSection
+EndGlobal
