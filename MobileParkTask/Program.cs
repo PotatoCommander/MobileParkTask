@@ -10,7 +10,15 @@ while (true)
     switch (command)
     {
         case "start":
-            _ = listener.StartAsync();
+            if (!listener.IsRunning)
+            {
+                _ = listener.StartAsync();
+            }
+            else
+            {
+                Console.WriteLine("Program is already running!");
+            }
+
             break;
         case "stop":
             listener.Stop();
